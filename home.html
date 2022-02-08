@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Supermercado+One" />
+</head>
+
+<body>
+    <header>
+        <div id="title-cont">
+            <img src="src/icons/icon-calculator.png" alt="calculator" />
+            <h2>Calculator</h2>
+        </div>
+    </header>
+    <main>
+        <div id="main-cont">
+            <div id="calc-cont">
+                <div id="output-cont">
+                    <div id="output">
+                        <h2 id="output-text">0</h2>
+                    </div>
+                    <div id="backspace">
+                        <img src="src/symbols/backspace.png" style="width: 90%" alt="backspace" />
+                    </div>
+                </div>
+                <div id="table-cont">
+                    <table>
+                        <tr>
+                            <td class="key">7</td>
+                            <td class="key">8</td>
+                            <td class="key">9</td>
+                            <td class="key" alt="/">
+                                <img class="operator" src="src/symbols/dvision.png" alt="/" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="key">4</td>
+                            <td class="key">5</td>
+                            <td class="key">6</td>
+                            <td class="key" alt="*">
+                                <img class="operator" src="src/symbols/multiply.png" alt="*" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="key">1</td>
+                            <td class="key">2</td>
+                            <td class="key">3</td>
+                            <td class="key" alt="+">
+                                <img class="operator" src="src/symbols/addition.png" alt="+" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="key" colspan="2">0</td>
+                            <td class="key" alt="-">
+                                <img class="operator" src="src/symbols/subtraction.png" alt="-" />
+                            </td>
+                            <td style="background-color: #3d6d79" id="equals">
+                                <img src="src/symbols/equals.png" alt="=" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/WhiteWolfDot/JS-Calculator/issues/new">
+            <h4>Report an issue</h4>
+        </a>
+        <h5>
+            Made with ❤ by
+            <a target="_blank" href="https://github.com/WhiteWolfDot">WhiteWolfDot</a
+        >
+      </h5>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
