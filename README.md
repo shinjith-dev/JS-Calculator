@@ -12,16 +12,14 @@ Suggestions and contributions are always welcome :)
 
 Simple arithmetic calculations; +,-,/ and *,
 
-Output with floating points.
+Floating points.
 ## Not Supported
 
 Complex calculations (like a scientific calculator),
 
 Negative values,
 
-Exponential values,
-
-Floating point inputs.
+Exponential values.
 ## Run Locally
 
 To copy and modify this project,

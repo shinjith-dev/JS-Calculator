@@ -18,48 +18,44 @@
     <main>
         <div id="main-cont">
             <div id="calc-cont">
-                <div id="output-cont">
-                    <div id="output">
-                        <h2 id="output-text">0</h2>
-                    </div>
-                    <div id="backspace">
-                        <img src="src/symbols/backspace.png" style="width: 90%" alt="backspace" />
-                    </div>
+                <div id="output">
+                    <h2 id="output-text">0</h2>
                 </div>
                 <div id="table-cont">
                     <table>
                         <tr>
+                            <td id="clear" class="btns" alt="clear">C</td>
+                            <td class="operator">÷</td>
+                            <td class="operator">-</td>
+                            <td id="backspace" alt="backspace" class="btns">
+                                <img src="src/symbols/backspace.png" alt="backspace" />
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="key">7</td>
                             <td class="key">8</td>
                             <td class="key">9</td>
-                            <td class="key" alt="/">
-                                <img class="operator" src="src/symbols/dvision.png" alt="/" />
-                            </td>
+                            <td class="operator">×</td>
                         </tr>
                         <tr>
                             <td class="key">4</td>
                             <td class="key">5</td>
                             <td class="key">6</td>
-                            <td class="key" alt="*">
-                                <img class="operator" src="src/symbols/multiply.png" alt="*" />
-                            </td>
+                            <td class="operator">+</td>
                         </tr>
                         <tr>
                             <td class="key">1</td>
                             <td class="key">2</td>
                             <td class="key">3</td>
-                            <td class="key" alt="+">
-                                <img class="operator" src="src/symbols/addition.png" alt="+" />
-                            </td>
+                            <td id="equals" rowspan="2">=</td>
                         </tr>
                         <tr>
-                            <td class="key" colspan="2">0</td>
-                            <td class="key" alt="-">
-                                <img class="operator" src="src/symbols/subtraction.png" alt="-" />
+                            <td alt="feedback" class="btns">
+                                <a target="#home" href="index.html"><img src="src/symbols/feedback.png" alt="feedback" />
+                                </a>
                             </td>
-                            <td style="background-color: #3d6d79" id="equals">
-                                <img src="src/symbols/equals.png" alt="=" />
-                            </td>
+                            <td class="key">0</td>
+                            <td class="key">.</td>
                         </tr>
                     </table>
                 </div>
@@ -72,10 +68,10 @@
         </a>
         <h5>
             Made with ❤ by
-            <a target="_blank" href="https://github.com/WhiteWolfDot">WhiteWolfDot</a
-        >
-      </h5>
+            <a target="_blank" href="https://github.com/WhiteWolfDot">WhiteWolfDot</a>
+        </h5>
     </footer>
-    <script src="main.js"></script>
-  </body>
+    <script src="index.js"></script>
+</body>
+
 </html>

@@ -10,25 +10,25 @@ body {
 }
 
 ::-webkit-scrollbar {
-    height: 1rem;
+    height: 0.5rem;
     padding: 0.2rem;
 }
 
 ::-webkit-scrollbar-track {
-    background: #606060;
+    background: #808080;
     border-radius: 3rem;
     padding: 0.2rem;
     box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #252525;
+    background: #363636;
     outline: 1px solid #505050;
     border-radius: 3rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #101010;
+    background: #282828;
 }
 
 header {
@@ -50,7 +50,7 @@ header {
 #title-cont img {
     width: 2.5rem;
     margin: auto 0;
-    box-shadow: 0rem 0.1rem 0.4rem 0 black;
+    box-shadow: 0.1rem 0.1rem 0.4rem 0 black;
 }
 
 #title-cont h2 {
@@ -72,7 +72,7 @@ main {
 }
 
 #main-cont {
-    width: 28rem;
+    width: 26rem;
     height: auto;
     background-color: #282828;
     padding: 1rem;
@@ -90,28 +90,17 @@ main {
     height: 100%;
 }
 
-#output-cont {
-    width: 97%;
-    display: flex;
-    align-items: center;
-}
-
 #output {
-    width: 90%;
-    height: 7.5rem;
+    width: 100%;
+    height: 6rem;
+    background-color: #505050;
+    box-shadow: 0.1rem 0.1rem 0.6rem 0 black inset;
+    margin-bottom: 0.8rem;
 }
 
-#backspace {
-    width: 9%;
-    height: fit-content;
-}
-
-#backspace img {
-    border: auto;
-}
-
-#output h2 {
+#output-text {
     font-size: 5rem;
+    height: 5.5rem;
     text-align: end;
     margin: 1rem;
     color: #bbbbbb;
@@ -138,24 +127,57 @@ table {
     margin: 0;
     font-family: "Supermercado One";
     border-spacing: 1rem;
+    column-width: 3rem;
 }
 
-td:hover {
+.key:hover {
     background-color: #808080;
 }
 
+.operator:hover {
+    background-color: #2d5d69;
+}
+
+.btns {
+    background-color: #3d6d79;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.btns:hover {
+    background-color: #2d5d69;
+}
+
+#equals {
+    background-color: black;
+    color: white;
+}
+
+#equals:hover {
+    background-color: #101010;
+}
+
 td {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: black;
     background-color: #969696;
     box-shadow: 0rem 0.2rem 0.4rem 0 black;
     padding: 0;
+    white-space: nowrap;
 }
 
 td img {
-    height: 2rem;
+    height: auto;
+    width: 2rem;
     display: block;
-    margin: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.operator {
+    background-color: #3d6d79;
+    color: white;
+    font-size: 3.5rem;
 }
 
 
@@ -228,7 +250,7 @@ footer a {
         width: 28%;
     }
     #main-cont {
-        width: 38rem;
+        width: 28rem;
     }
     footer {
         height: 7%;
