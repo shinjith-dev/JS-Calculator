@@ -1,6 +1,8 @@
 const output = document.getElementById('output-text');
-const stack = new Array();
-const postfix = new Array();
+const stack = ['0'];
+const postfix = ['0'];
+stack.length = 0;
+postfix.length = 0;
 
 var freshStart = true;
 var decimalOnce = false;
