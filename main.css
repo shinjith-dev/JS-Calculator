@@ -47,12 +47,6 @@ header {
     height: 100%;
 }
 
-#title-cont img {
-    width: 1.5rem;
-    margin: auto 0;
-    box-shadow: 0.1rem 0.1rem 0.4rem 0 black;
-}
-
 #title-cont h2 {
     width: 38%;
     margin: 0;
@@ -216,17 +210,6 @@ footer a {
     text-decoration: none;
     font-style: italic;
     color: #bbbbbb;
-}
-
-@media only screen and (min-width: 640px) {}
-
-@media only screen and (min-width: 850px) {
-    header {
-        height: 4%;
-    }
-    #title-cont h2 {
-        width: 20%;
-    }
 }
 
 @media screen and (max-height:350px) {
