@@ -5,7 +5,7 @@ body {
     background-color: #363636;
     margin: 0;
     overflow: hidden;
-    font-size: 10px;
+    font-size: 7px;
     position: relative;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    height: 4%;
+    height: 3%;
     background-color: #282828;
     text-align: center;
     vertical-align: middle;
@@ -48,7 +48,7 @@ header {
 }
 
 #title-cont img {
-    width: 2.5rem;
+    width: 1.5rem;
     margin: auto 0;
     box-shadow: 0.1rem 0.1rem 0.4rem 0 black;
 }
@@ -185,7 +185,7 @@ td img {
 
 footer {
     width: 100%;
-    height: 4%;
+    height: 2%;
     background-color: #282828;
     position: absolute;
     bottom: 0;
@@ -218,44 +218,7 @@ footer a {
     color: #bbbbbb;
 }
 
-@media only screen and (max-width: 350px) {
-    html,
-    body {
-        font-size: 8px;
-    }
-    #title-cont h2 {
-        width: 32%;
-    }
-}
-
-@media only screen and (min-width: 450px) {
-    html,
-    body {
-        font-size: 12px;
-    }
-    #title-cont h2 {
-        width: 35%;
-    }
-}
-
-@media only screen and (min-width: 640px) {
-    html,
-    body {
-        font-size: 14px;
-    }
-    header {
-        height: 5%;
-    }
-    #title-cont h2 {
-        width: 28%;
-    }
-    #main-cont {
-        width: 28rem;
-    }
-    footer {
-        height: 7%;
-    }
-}
+@media only screen and (min-width: 640px) {}
 
 @media only screen and (min-width: 850px) {
     header {
@@ -263,5 +226,80 @@ footer a {
     }
     #title-cont h2 {
         width: 20%;
+    }
+}
+
+@media screen and (max-height:350px) {
+    html,
+    body {
+        font-size: 5px;
+    }
+    header {
+        height: 4%;
+        padding: 0.5rem;
+    }
+    #title-cont img {
+        width: 2rem;
+    }
+    #title-cont h2 {
+        width: 32%;
+    }
+    #main-cont {
+        top: 40%;
+    }
+    footer {
+        height: 1%;
+    }
+}
+
+@media screen and (min-height: 450px) {
+    html,
+    body {
+        font-size: 8px;
+    }
+    header {
+        height: 4%;
+        padding: 0.5rem;
+    }
+    #title-cont img {
+        width: 1.5rem;
+    }
+    #main-cont {
+        top: 41%;
+    }
+    footer {
+        height: 2%;
+    }
+    #title-cont h2 {
+        width: 35%;
+    }
+}
+
+@media screen and (min-height: 650px) {
+    html,
+    body {
+        font-size: 10px;
+    }
+    header {
+        height: 5%;
+    }
+    #title-cont h2 {
+        width: 28%;
+    }
+    footer {
+        height: 4%;
+    }
+    #main-cont {
+        width: 28rem;
+    }
+}
+
+@media screen and (min-height: 850px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+    footer {
+        height: 4%;
     }
 }

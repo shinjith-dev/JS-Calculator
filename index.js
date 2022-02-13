@@ -50,6 +50,11 @@ document.querySelectorAll('.key').forEach(item => {
 
 //to convert the text in ouput field to postfix, evaluate and display it
 document.getElementById('equals').addEventListener('click', function() {
+    while (isNaN(output.innerHTML[output.innerHTML.length - 1])) {
+        var string = output.innerHTML;
+        string = string.substring(0, string.length - 1);
+        output.innerHTML = string;
+    }
     var expression = deFormat(output.innerHTML);
     let tempStr = expression;
     let lastIndex = 0;
@@ -107,6 +112,8 @@ document.getElementById('equals').addEventListener('click', function() {
 document.getElementById('backspace').addEventListener('click', function() {
     var string = output.innerHTML;
     string = string.substring(0, string.length - 1);
+    if (output.innerHTML[output.innerHTML.length - 1] == '.')
+        decimalOnce = false;
     if (string.length == 0 || freshStart) {
         output.innerHTML = '0';
         stack.length = 0;
