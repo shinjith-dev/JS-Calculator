@@ -10,7 +10,7 @@ Suggestions and contributions are always welcome :)
 
 ## Supported
 
-Simple arithmetic calculations; +,-,/ and *,
+Simple arithmetic calculations: addition, subtraction, multiplication and division,
 
 Floating points.
 ## Not Supported
