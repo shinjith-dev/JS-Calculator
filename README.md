@@ -49,7 +49,7 @@ To copy and modify this project,
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [CONTRIBUTING.md](https://github.com/WhiteWolfDot/JS-Calculator/blob/main/CONTRIBUTING.md) for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
@@ -58,6 +58,13 @@ Please adhere to this project's `code of conduct`.
 
 For support, email shinjithkanhangad@gmail.com or contact on
 [instagram](https://www.instagram.com/shinjith_/).
+
+## :memo: License
+This project is under MIT license. See [LICENSE](https://github.com/WhiteWolfDot/JS-Calculator/blob/main/LICENSE.md) for more information.
+
+---
+
+Made with ❤ by [white wolf](https://www.instagram.com/shinjith_)
 
 
 ## Authors
