@@ -1,5 +1,5 @@
 
-# JS-Calculator
+# JS-Calculator v3
 
 A simple standard web calculator made using pure JavaScript.
 I made this project during my JavaScript learning journey, so it doesn't have much features.
